@@ -1,0 +1,30 @@
+{
+  "controllerName": "Demo",
+  "requestMapping": "/api/v1",
+  "helperClass": "MyHelper",
+
+  "apis": [
+    {
+      "methodName": "ping",
+      "apiName": "/ping",
+      "apiType":"GET",
+      "params": [
+        {
+          "paramName": "id",
+          "paramType": "Query"
+        }
+      ]
+    },
+    {
+      "methodName": "ping2",
+      "apiName": "/ping2",
+      "apiType":"POST",
+      "params": [
+        {
+          "paramName": "id",
+          "paramType": "Query"
+        }
+      ]
+    }
+  ]
+}
